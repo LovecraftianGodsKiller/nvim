@@ -1,7 +1,19 @@
-require'nvim-treesitter.configs'.setup {
-  ensure_installed = { 'lua', 'markdown', 'markdown_inline' },
-  auto_install = true,
-  highlight = {
-    enable = true,
+return {
+  {
+    "nvim-treesitter/nvim-treesitter",
+    opts = {
+      ensure_installed = {
+        "markdown",
+        "markdown_inline",
+        "lua",
+        "html",
+        "bash",
+        "json",
+      },
+      auto_install = true,
+      highlight = {
+        enable = true,
+      },
+    },
   },
 }

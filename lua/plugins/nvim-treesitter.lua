@@ -1,18 +1,22 @@
 return {
   {
     "nvim-treesitter/nvim-treesitter",
+    build = ":TSUpdate",
     opts = {
       ensure_installed = {
+        "c",
+        "lua",
         "markdown",
         "markdown_inline",
-        "lua",
-        "html",
+        "toml",
         "bash",
-        "json",
       },
-      auto_install = true,
+      sync_install = true,
       highlight = {
-        enable = true,
+        enabled = true,
+      },
+      indent = {
+        enabled = true,
       },
     },
   },

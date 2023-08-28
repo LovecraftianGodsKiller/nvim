@@ -1,10 +1,11 @@
 return {
-  { 'rose-pine/neovim', as = 'rose-pine' },
-
   {
-    'LazyVim/LazyVim',
+    "catppuccin/nvim", name = "catppuccin", priority = 1000,
+  },
+  {
+    "LazyVim/LazyVim",
     opts = {
-      colorscheme = 'rose-pine',
+      colorscheme = "catppuccin-mocha",
     },
-  }
+  },
 }

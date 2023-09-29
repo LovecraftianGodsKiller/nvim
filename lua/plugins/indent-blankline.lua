@@ -1,4 +1,12 @@
 return {
+<<<<<<< HEAD
+    {
+        "lukas-reineke/indent-blankline.nvim",
+        main = "ibl",
+        opts = {
+        },
+    },
+=======
   {
     "lukas-reineke/indent-blankline.nvim",
     opts = {
@@ -6,4 +14,5 @@ return {
       show_current_context_start = true,
     },
   },
+>>>>>>> refs/remotes/origin/main
 }

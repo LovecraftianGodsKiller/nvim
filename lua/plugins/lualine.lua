@@ -3,7 +3,7 @@ return {
     "nvim-lualine/lualine.nvim",
     opts = {
       icons_enabled = true,
-      theme = "rose-pine",
+      theme = "rose-pine-alt",
       component_separators = { left = '', right = ''},
       section_separators = { left = '', right = ''},
       disabled_filetypes = {

@@ -8,7 +8,7 @@
   "eyeliner.nvim": { "branch": "main", "commit": "c540d58bf52aa979d4cca639c60387ae0c0ccf88" },
   "fzf-lua": { "branch": "main", "commit": "f4091b9fa05ae6c2eab2823c0b345be2a27208c6" },
   "indent-blankline.nvim": { "branch": "master", "commit": "2ec42d26c933e7a129fe056dfc11a207afff252d" },
-  "lazy.nvim": { "branch": "main", "commit": "6a2c47e6424a3f1e373bfeb714b716f6be13501c" },
+  "lazy.nvim": { "branch": "main", "commit": "4c75c8eeb957a99aa44ce8e526c04340ab358c5e" },
   "legendary.nvim": { "branch": "master", "commit": "3db15cae08d63bab40d0c38474e368f97414f090" },
   "lualine.nvim": { "branch": "master", "commit": "45e27ca739c7be6c49e5496d14fcf45a303c3a63" },
   "noice.nvim": { "branch": "main", "commit": "396f9146529130904e07c45e90ecdbfa607534f3" },

@@ -11,7 +11,7 @@ wk.register({
     },
     n = {
         name = "Neo Tree",
-        e = { "<cmd>Neotree dir=./<cr>", "Open in Current dir" },
-        E = { "<cmd>Neotree dir=~/<cr>", "Open in Home dir" },
+        r = { "<cmd>Neotree reveal<cr>", "Reveal" },
+        e = { "<cmd>Neotree dir=$HOME<cr>", "Open in Current dir" },
     }
 }, {prefix = "<leader>" })

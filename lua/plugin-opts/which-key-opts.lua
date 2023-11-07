@@ -9,4 +9,9 @@ wk.register({
         n = { "New File" }, -- just a label. don't create any mapping
         e = "Edit File", -- same as above
     },
+    n = {
+        name = "Neo Tree",
+        e = { "<cmd>Neotree dir=./<cr>", "Open in Current dir" },
+        E = { "<cmd>Neotree dir=~/<cr>", "Open in Home dir" },
+    }
 }, {prefix = "<leader>" })

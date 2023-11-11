@@ -44,7 +44,26 @@ require("catppuccin").setup {
         gitsigns = true,
         nvimtree = true,
         treesitter = true,
+        lsp_trouble = true,
         notify = true,
+        native_lsp = {
+            enabled = true,
+            virtual_text = {
+                errors = { "italic" },
+                hints = { "italic" },
+                warnings = { " italic" },
+                information = { " italic" },
+            },
+            underlines = {
+                errors = { "underline" },
+                hints = { "underline" },
+                warnings = { "underline" },
+                information = { "underline" },
+            },
+            inlay_hints = {
+                background = true,
+            },
+        },
         mini = {
             enabled = true,
             indentscope_color = "",

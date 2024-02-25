@@ -74,5 +74,6 @@ require("catppuccin").setup {
             colored_indent_levels = true,
         },
         which_key = true,
+        barbar = true,
     },
 }

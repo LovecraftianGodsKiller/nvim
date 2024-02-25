@@ -139,7 +139,7 @@ config = function ()
         nesting_rules = {
             filesystem = {
                 filtered_items = {
-                    visible = false,
+                    visible = true,
                     hide_dotfiles = false,
                     hide_gitignored = false,
                     hide_hidden = false,
@@ -200,7 +200,7 @@ config = function ()
                 },
                 buffers = {
                     follow_current_file = {
-                        enabled = true, -- will find a focus the file in the active buffer every time
+                        enabled = false, -- will find a focus the file in the active buffer every time
                                         -- current file is changed while the tree is open.
                         leav_dirs_open = false, -- 'false' closes auto expanded.dirs, such as with ':Neotree reveal'
                     },

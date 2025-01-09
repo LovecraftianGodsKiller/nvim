@@ -3,9 +3,8 @@ vim.opt.termguicolors = true
 
 require("config.keymaps")
 require("config.lazy")
-require("plugin-opts.cattppuccin-mocha-opts")
-require("plugin-opts.neo-tree-opts")
-require("plugin-opts.which-key-opts")
+require("config.colorscheme")
+require("plugin-opts.eldritch-opts")
 require("plugin-opts.indent-blankline-opts")
-require("plugin-opts.glow-opts")
+require("plugin-opts.stay-centered-opts")
 require("config.options")
